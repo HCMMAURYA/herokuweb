@@ -4,7 +4,7 @@ const app = express();
 const hbs = require("hbs");
 require("./db/conn");
 const Register = require("./models/registers");
-const port = process.env.PORT || 5555;
+const port = process.env.PORT || 8000;
 
 const static_path = path.join(__dirname,"../public");
 const template_path = path.join(__dirname,"../templates/views");
